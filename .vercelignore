@@ -1,0 +1,18 @@
+node_modules
+.svelte-kit
+.output
+.vercel
+build
+
+# Local agent/tooling state
+.pi
+.workflower
+.pi_tmp_pdf
+
+# Python/runtime caches
+__pycache__
+*.pyc
+.pytest_cache
+
+# ML working data is regenerated locally and not needed for the Vercel frontend build.
+ml/pipeline/generated-data

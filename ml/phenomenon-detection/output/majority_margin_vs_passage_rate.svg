@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="560" viewBox="0 0 950 560">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1a202c">Majority Margin vs. Passage Rate</text>
+<text x="40" y="68" font-family="Arial, sans-serif" font-size="14" fill="#718096">Each point is one majority-seat margin from training_data.csv; point size reflects roll-call count</text>
+<line x1="80" y1="490.00" x2="910" y2="490.00" stroke="#edf2f7"/>
+<text x="35" y="494.00" font-family="Arial, sans-serif" font-size="12" fill="#718096">0%</text>
+<line x1="80" y1="409.60" x2="910" y2="409.60" stroke="#edf2f7"/>
+<text x="35" y="413.60" font-family="Arial, sans-serif" font-size="12" fill="#718096">20%</text>
+<line x1="80" y1="329.20" x2="910" y2="329.20" stroke="#edf2f7"/>
+<text x="35" y="333.20" font-family="Arial, sans-serif" font-size="12" fill="#718096">40%</text>
+<line x1="80" y1="248.80" x2="910" y2="248.80" stroke="#edf2f7"/>
+<text x="35" y="252.80" font-family="Arial, sans-serif" font-size="12" fill="#718096">60%</text>
+<line x1="80" y1="168.40" x2="910" y2="168.40" stroke="#edf2f7"/>
+<text x="35" y="172.40" font-family="Arial, sans-serif" font-size="12" fill="#718096">80%</text>
+<line x1="80" y1="88.00" x2="910" y2="88.00" stroke="#edf2f7"/>
+<text x="35" y="92.00" font-family="Arial, sans-serif" font-size="12" fill="#718096">100%</text>
+<line x1="80" y1="88" x2="80" y2="490" stroke="#2d3748"/>
+<line x1="80" y1="490" x2="910" y2="490" stroke="#2d3748"/>
+<text x="430.0" y="535" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">Majority margin (seats)</text>
+<text x="18" y="344.0" transform="rotate(-90 18 344.0)" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">Passage rate</text>
+<line x1="80.00" y1="490" x2="80.00" y2="496" stroke="#2d3748"/>
+<text x="66.00" y="514" font-family="Arial, sans-serif" font-size="12" fill="#718096">0</text>
+<line x1="246.00" y1="490" x2="246.00" y2="496" stroke="#2d3748"/>
+<text x="232.00" y="514" font-family="Arial, sans-serif" font-size="12" fill="#718096">20</text>
+<line x1="412.00" y1="490" x2="412.00" y2="496" stroke="#2d3748"/>
+<text x="398.00" y="514" font-family="Arial, sans-serif" font-size="12" fill="#718096">40</text>
+<line x1="578.00" y1="490" x2="578.00" y2="496" stroke="#2d3748"/>
+<text x="564.00" y="514" font-family="Arial, sans-serif" font-size="12" fill="#718096">60</text>
+<line x1="744.00" y1="490" x2="744.00" y2="496" stroke="#2d3748"/>
+<text x="730.00" y="514" font-family="Arial, sans-serif" font-size="12" fill="#718096">80</text>
+<line x1="910.00" y1="490" x2="910.00" y2="496" stroke="#2d3748"/>
+<text x="896.00" y="514" font-family="Arial, sans-serif" font-size="12" fill="#718096">100</text>
+<polyline points="80.00,211.54 88.30,259.23 96.60,174.78 104.90,203.83 121.50,220.13 138.10,192.16 146.40,123.20 154.70,210.36 163.00,232.09 171.30,191.79 179.60,205.90 196.20,201.47 237.70,230.17 262.60,252.19 270.90,212.20 312.40,257.33 353.90,196.13 378.80,238.29 403.70,199.07 453.50,277.32 495.00,194.67 586.30,240.88 785.50,202.07 793.80,186.04 910.00,210.83" fill="none" stroke="#2b6cb0" stroke-width="2.5"/>
+<circle cx="80.00" cy="211.54" r="4.24" fill="#dd6b20" opacity="0.78"><title>Margin 0: 69.3% passed, n=628</title></circle>
+<circle cx="88.30" cy="259.23" r="4.30" fill="#dd6b20" opacity="0.78"><title>Margin 1: 57.4% passed, n=655</title></circle>
+<circle cx="96.60" cy="174.78" r="4.87" fill="#dd6b20" opacity="0.78"><title>Margin 2: 78.4% passed, n=945</title></circle>
+<circle cx="104.90" cy="203.83" r="5.69" fill="#dd6b20" opacity="0.78"><title>Margin 3: 71.2% passed, n=1357</title></circle>
+<circle cx="121.50" cy="220.13" r="5.13" fill="#dd6b20" opacity="0.78"><title>Margin 5: 67.1% passed, n=1077</title></circle>
+<circle cx="138.10" cy="192.16" r="5.99" fill="#dd6b20" opacity="0.78"><title>Margin 7: 74.1% passed, n=1509</title></circle>
+<circle cx="146.40" cy="123.20" r="4.40" fill="#dd6b20" opacity="0.78"><title>Margin 8: 91.2% passed, n=708</title></circle>
+<circle cx="154.70" cy="210.36" r="7.38" fill="#dd6b20" opacity="0.78"><title>Margin 9: 69.6% passed, n=2211</title></circle>
+<circle cx="163.00" cy="232.09" r="9.00" fill="#dd6b20" opacity="0.78"><title>Margin 10: 64.2% passed, n=3027</title></circle>
+<circle cx="171.30" cy="191.79" r="5.96" fill="#dd6b20" opacity="0.78"><title>Margin 11: 74.2% passed, n=1495</title></circle>
+<circle cx="179.60" cy="205.90" r="6.81" fill="#dd6b20" opacity="0.78"><title>Margin 12: 70.7% passed, n=1923</title></circle>
+<circle cx="196.20" cy="201.47" r="6.03" fill="#dd6b20" opacity="0.78"><title>Margin 14: 71.8% passed, n=1527</title></circle>
+<circle cx="237.70" cy="230.17" r="5.31" fill="#dd6b20" opacity="0.78"><title>Margin 19: 64.6% passed, n=1165</title></circle>
+<circle cx="262.60" cy="252.19" r="4.36" fill="#dd6b20" opacity="0.78"><title>Margin 22: 59.2% passed, n=688</title></circle>
+<circle cx="270.90" cy="212.20" r="5.41" fill="#dd6b20" opacity="0.78"><title>Margin 23: 69.1% passed, n=1217</title></circle>
+<circle cx="312.40" cy="257.33" r="5.62" fill="#dd6b20" opacity="0.78"><title>Margin 28: 57.9% passed, n=1320</title></circle>
+<circle cx="353.90" cy="196.13" r="7.28" fill="#dd6b20" opacity="0.78"><title>Margin 33: 73.1% passed, n=2160</title></circle>
+<circle cx="378.80" cy="238.29" r="5.38" fill="#dd6b20" opacity="0.78"><title>Margin 36: 62.6% passed, n=1201</title></circle>
+<circle cx="403.70" cy="199.07" r="6.69" fill="#dd6b20" opacity="0.78"><title>Margin 39: 72.4% passed, n=1864</title></circle>
+<circle cx="453.50" cy="277.32" r="6.17" fill="#dd6b20" opacity="0.78"><title>Margin 45: 52.9% passed, n=1601</title></circle>
+<circle cx="495.00" cy="194.67" r="5.39" fill="#dd6b20" opacity="0.78"><title>Margin 50: 73.5% passed, n=1206</title></circle>
+<circle cx="586.30" cy="240.88" r="5.62" fill="#dd6b20" opacity="0.78"><title>Margin 61: 62.0% passed, n=1320</title></circle>
+<circle cx="785.50" cy="202.07" r="4.01" fill="#dd6b20" opacity="0.78"><title>Margin 85: 71.6% passed, n=511</title></circle>
+<circle cx="793.80" cy="186.04" r="8.43" fill="#dd6b20" opacity="0.78"><title>Margin 86: 75.6% passed, n=2739</title></circle>
+<circle cx="910.00" cy="210.83" r="4.78" fill="#dd6b20" opacity="0.78"><title>Margin 100: 69.4% passed, n=900</title></circle>
+</svg>

@@ -1,0 +1,47 @@
+{
+  "name": "congressional-chances",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "packageManager": "pnpm@11.0.8",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "run:dev": "pnpm install && pnpm build:prod && pnpm dev",
+    "setup": "pnpm install && pnpm setup:py",
+    "setup:py": "python -m pip install -r requirements.txt",
+    "build": "vite build",
+    "build:ml": "pnpm setup:py && pnpm ml:download && pnpm ml:prepare && pnpm ml:train && pnpm ml:export",
+    "build:prod": "pnpm build:ml && vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "ml:download": "python ml/pipeline/stages/download_data.py",
+    "ml:prepare": "python ml/pipeline/stages/prepare_data.py",
+    "ml:train": "python ml/pipeline/stages/train_model.py",
+    "ml:export": "python ml/pipeline/stages/export_model.py"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-vercel": "^6.3.4",
+    "@sveltejs/kit": "^2.63.0",
+    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "@tailwindcss/vite": "^4.3.2",
+    "svelte": "^5.56.1",
+    "svelte-check": "^4.6.0",
+    "tailwindcss": "^4.3.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16"
+  },
+  "dependencies": {
+    "highcharts": "^13.0.0",
+    "onnxruntime-web": "^1.27.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "protobufjs"
+    ]
+  }
+}

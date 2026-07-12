@@ -1,0 +1,72 @@
+{
+  "feature_groups": {
+    "categorical": [
+      "chamber",
+      "policy_area",
+      "vote_question_type",
+      "majority_party"
+    ],
+    "composition": [
+      "democratic_seats",
+      "republican_seats",
+      "independent_seats",
+      "total_chamber_size",
+      "majority_margin",
+      "democratic_seat_share",
+      "republican_seat_share",
+      "independent_seat_share"
+    ],
+    "party_ideology": [
+      "democratic_voteview_mean",
+      "democratic_voteview_median",
+      "republican_voteview_mean",
+      "republican_voteview_median",
+      "polarization_index"
+    ]
+  },
+  "generated_by": "ml/pipeline/stages/export_model.py",
+  "input_types": {
+    "chamber": "string",
+    "democratic_seat_share": "float",
+    "democratic_seats": "float",
+    "democratic_voteview_mean": "float",
+    "democratic_voteview_median": "float",
+    "independent_seat_share": "float",
+    "independent_seats": "float",
+    "majority_margin": "float",
+    "majority_party": "string",
+    "polarization_index": "float",
+    "policy_area": "string",
+    "republican_seat_share": "float",
+    "republican_seats": "float",
+    "republican_voteview_mean": "float",
+    "republican_voteview_median": "float",
+    "total_chamber_size": "float",
+    "vote_question_type": "string"
+  },
+  "is_sample": false,
+  "notes": [
+    "Feature order is synchronized from ml/config/features.yaml.",
+    "The ONNX graph accepts one tensor per ordered feature, each with shape [batch, 1]."
+  ],
+  "ordered_features": [
+    "chamber",
+    "policy_area",
+    "vote_question_type",
+    "democratic_seats",
+    "republican_seats",
+    "independent_seats",
+    "total_chamber_size",
+    "majority_party",
+    "majority_margin",
+    "democratic_seat_share",
+    "republican_seat_share",
+    "independent_seat_share",
+    "democratic_voteview_mean",
+    "democratic_voteview_median",
+    "republican_voteview_mean",
+    "republican_voteview_median",
+    "polarization_index"
+  ],
+  "schema_version": 1
+}

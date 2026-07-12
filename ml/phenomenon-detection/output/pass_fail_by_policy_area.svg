@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="940" viewBox="0 0 1100 940">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1a202c">Pass/Fail by Policy Area</text>
+<text x="40" y="68" font-family="Arial, sans-serif" font-size="14" fill="#718096">Top 25 policy areas by roll-call count from training_data.csv</text>
+<rect x="330" y="84" width="18" height="12" fill="#2f855a"/>
+<text x="356" y="95" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">Passed</text>
+<rect x="430" y="84" width="18" height="12" fill="#c53030"/>
+<text x="456" y="95" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">Failed</text>
+<text x="40" y="103" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#718096">Policy area</text>
+<text x="330" y="103" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#718096">0%</text>
+<text x="616.0" y="103" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#718096">50%</text>
+<text x="902" y="103" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#718096">100%</text>
+<line x1="330" y1="108" x2="930" y2="108" stroke="#e2e8f0"/>
+<text x="40" y="132" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">unknown<title>unknown</title></text>
+<rect x="330" y="115" width="464.00" height="20" fill="#2f855a"><title>unknown: 77.3% passed</title></rect>
+<rect x="794.00" y="115" width="136.00" height="20" fill="#c53030"><title>unknown: 22.7% failed</title></rect>
+<text x="945" y="130" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">77.3% pass / 22.7% fail</text>
+<text x="1115" y="130" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=6737</text>
+<text x="40" y="162" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">economics and public finance<title>economics and public finance</title></text>
+<rect x="330" y="145" width="301.18" height="20" fill="#2f855a"><title>economics and public finance: 50.2% passed</title></rect>
+<rect x="631.18" y="145" width="298.82" height="20" fill="#c53030"><title>economics and public finance: 49.8% failed</title></rect>
+<text x="945" y="160" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">50.2% pass / 49.8% fail</text>
+<text x="1115" y="160" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=6118</text>
+<text x="40" y="192" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">congress<title>congress</title></text>
+<rect x="330" y="175" width="567.07" height="20" fill="#2f855a"><title>congress: 94.5% passed</title></rect>
+<rect x="897.07" y="175" width="32.93" height="20" fill="#c53030"><title>congress: 5.5% failed</title></rect>
+<text x="945" y="190" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">94.5% pass / 5.5% fail</text>
+<text x="1115" y="190" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=3298</text>
+<text x="40" y="222" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">armed forces and national security<title>armed forces and national security</title></text>
+<rect x="330" y="205" width="388.22" height="20" fill="#2f855a"><title>armed forces and national security: 64.7% passed</title></rect>
+<rect x="718.22" y="205" width="211.78" height="20" fill="#c53030"><title>armed forces and national security: 35.3% failed</title></rect>
+<text x="945" y="220" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">64.7% pass / 35.3% fail</text>
+<text x="1115" y="220" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=2309</text>
+<text x="40" y="252" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">international affairs<title>international affairs</title></text>
+<rect x="330" y="235" width="478.20" height="20" fill="#2f855a"><title>international affairs: 79.7% passed</title></rect>
+<rect x="808.20" y="235" width="121.80" height="20" fill="#c53030"><title>international affairs: 20.3% failed</title></rect>
+<text x="945" y="250" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">79.7% pass / 20.3% fail</text>
+<text x="1115" y="250" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=1601</text>
+<text x="40" y="282" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">government operations and politics<title>government operations and politics</title></text>
+<rect x="330" y="265" width="369.36" height="20" fill="#2f855a"><title>government operations and politics: 61.6% passed</title></rect>
+<rect x="699.36" y="265" width="230.64" height="20" fill="#c53030"><title>government operations and politics: 38.4% failed</title></rect>
+<text x="945" y="280" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">61.6% pass / 38.4% fail</text>
+<text x="1115" y="280" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=1410</text>
+<text x="40" y="312" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">health<title>health</title></text>
+<rect x="330" y="295" width="387.69" height="20" fill="#2f855a"><title>health: 64.6% passed</title></rect>
+<rect x="717.69" y="295" width="212.31" height="20" fill="#c53030"><title>health: 35.4% failed</title></rect>
+<text x="945" y="310" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">64.6% pass / 35.4% fail</text>
+<text x="1115" y="310" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=910</text>
+<text x="40" y="342" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">crime and law enforcement<title>crime and law enforcement</title></text>
+<rect x="330" y="325" width="437.15" height="20" fill="#2f855a"><title>crime and law enforcement: 72.9% passed</title></rect>
+<rect x="767.15" y="325" width="162.85" height="20" fill="#c53030"><title>crime and law enforcement: 27.1% failed</title></rect>
+<text x="945" y="340" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">72.9% pass / 27.1% fail</text>
+<text x="1115" y="340" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=899</text>
+<text x="40" y="372" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">taxation<title>taxation</title></text>
+<rect x="330" y="355" width="274.36" height="20" fill="#2f855a"><title>taxation: 45.7% passed</title></rect>
+<rect x="604.36" y="355" width="325.64" height="20" fill="#c53030"><title>taxation: 54.3% failed</title></rect>
+<text x="945" y="370" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">45.7% pass / 54.3% fail</text>
+<text x="1115" y="370" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=866</text>
+<text x="40" y="402" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">internal organization<title>internal organization</title></text>
+<rect x="330" y="385" width="424.66" height="20" fill="#2f855a"><title>internal organization: 70.8% passed</title></rect>
+<rect x="754.66" y="385" width="175.34" height="20" fill="#c53030"><title>internal organization: 29.2% failed</title></rect>
+<text x="945" y="400" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">70.8% pass / 29.2% fail</text>
+<text x="1115" y="400" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=811</text>
+<text x="40" y="432" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">finance and financial sector<title>finance and financial sector</title></text>
+<rect x="330" y="415" width="386.40" height="20" fill="#2f855a"><title>finance and financial sector: 64.4% passed</title></rect>
+<rect x="716.40" y="415" width="213.60" height="20" fill="#c53030"><title>finance and financial sector: 35.6% failed</title></rect>
+<text x="945" y="430" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">64.4% pass / 35.6% fail</text>
+<text x="1115" y="430" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=809</text>
+<text x="40" y="462" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">public lands and natural resources<title>public lands and natural resources</title></text>
+<rect x="330" y="445" width="408.38" height="20" fill="#2f855a"><title>public lands and natural resources: 68.1% passed</title></rect>
+<rect x="738.38" y="445" width="191.62" height="20" fill="#c53030"><title>public lands and natural resources: 31.9% failed</title></rect>
+<text x="945" y="460" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">68.1% pass / 31.9% fail</text>
+<text x="1115" y="460" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=764</text>
+<text x="40" y="492" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">education<title>education</title></text>
+<rect x="330" y="475" width="400.60" height="20" fill="#2f855a"><title>education: 66.8% passed</title></rect>
+<rect x="730.60" y="475" width="199.40" height="20" fill="#c53030"><title>education: 33.2% failed</title></rect>
+<text x="945" y="490" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">66.8% pass / 33.2% fail</text>
+<text x="1115" y="490" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=671</text>
+<text x="40" y="522" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">transportation and public works<title>transportation and public works</title></text>
+<rect x="330" y="505" width="420.81" height="20" fill="#2f855a"><title>transportation and public works: 70.1% passed</title></rect>
+<rect x="750.81" y="505" width="179.19" height="20" fill="#c53030"><title>transportation and public works: 29.9% failed</title></rect>
+<text x="945" y="520" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">70.1% pass / 29.9% fail</text>
+<text x="1115" y="520" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=663</text>
+<text x="40" y="552" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">energy<title>energy</title></text>
+<rect x="330" y="535" width="311.85" height="20" fill="#2f855a"><title>energy: 52.0% passed</title></rect>
+<rect x="641.85" y="535" width="288.15" height="20" fill="#c53030"><title>energy: 48.0% failed</title></rect>
+<text x="945" y="550" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">52.0% pass / 48.0% fail</text>
+<text x="1115" y="550" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=633</text>
+<text x="40" y="582" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">judiciary<title>judiciary</title></text>
+<rect x="330" y="565" width="564.94" height="20" fill="#2f855a"><title>judiciary: 94.2% passed</title></rect>
+<rect x="894.94" y="565" width="35.06" height="20" fill="#c53030"><title>judiciary: 5.8% failed</title></rect>
+<text x="945" y="580" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">94.2% pass / 5.8% fail</text>
+<text x="1115" y="580" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=616</text>
+<text x="40" y="612" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">government organization<title>government organization</title></text>
+<rect x="330" y="595" width="583.72" height="20" fill="#2f855a"><title>government organization: 97.3% passed</title></rect>
+<rect x="913.72" y="595" width="16.28" height="20" fill="#c53030"><title>government organization: 2.7% failed</title></rect>
+<text x="945" y="610" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">97.3% pass / 2.7% fail</text>
+<text x="1115" y="610" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=516</text>
+<text x="40" y="642" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">labor and employment<title>labor and employment</title></text>
+<rect x="330" y="625" width="379.08" height="20" fill="#2f855a"><title>labor and employment: 63.2% passed</title></rect>
+<rect x="709.08" y="625" width="220.92" height="20" fill="#c53030"><title>labor and employment: 36.8% failed</title></rect>
+<text x="945" y="640" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">63.2% pass / 36.8% fail</text>
+<text x="1115" y="640" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=478</text>
+<text x="40" y="672" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">environmental protection<title>environmental protection</title></text>
+<rect x="330" y="655" width="298.07" height="20" fill="#2f855a"><title>environmental protection: 49.7% passed</title></rect>
+<rect x="628.07" y="655" width="301.93" height="20" fill="#c53030"><title>environmental protection: 50.3% failed</title></rect>
+<text x="945" y="670" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">49.7% pass / 50.3% fail</text>
+<text x="1115" y="670" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=467</text>
+<text x="40" y="702" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">emergency management<title>emergency management</title></text>
+<rect x="330" y="685" width="385.33" height="20" fill="#2f855a"><title>emergency management: 64.2% passed</title></rect>
+<rect x="715.33" y="685" width="214.67" height="20" fill="#c53030"><title>emergency management: 35.8% failed</title></rect>
+<text x="945" y="700" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">64.2% pass / 35.8% fail</text>
+<text x="1115" y="700" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=450</text>
+<text x="40" y="732" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">agriculture and food<title>agriculture and food</title></text>
+<rect x="330" y="715" width="325.52" height="20" fill="#2f855a"><title>agriculture and food: 54.3% passed</title></rect>
+<rect x="655.52" y="715" width="274.48" height="20" fill="#c53030"><title>agriculture and food: 45.7% failed</title></rect>
+<text x="945" y="730" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">54.3% pass / 45.7% fail</text>
+<text x="1115" y="730" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=435</text>
+<text x="40" y="762" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">science, technology, communications<title>science, technology, communications</title></text>
+<rect x="330" y="745" width="414.36" height="20" fill="#2f855a"><title>science, technology, communications: 69.1% passed</title></rect>
+<rect x="744.36" y="745" width="185.64" height="20" fill="#c53030"><title>science, technology, communications: 30.9% failed</title></rect>
+<text x="945" y="760" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">69.1% pass / 30.9% fail</text>
+<text x="1115" y="760" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=404</text>
+<text x="40" y="792" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">commerce<title>commerce</title></text>
+<rect x="330" y="775" width="442.19" height="20" fill="#2f855a"><title>commerce: 73.7% passed</title></rect>
+<rect x="772.19" y="775" width="157.81" height="20" fill="#c53030"><title>commerce: 26.3% failed</title></rect>
+<text x="945" y="790" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">73.7% pass / 26.3% fail</text>
+<text x="1115" y="790" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=365</text>
+<text x="40" y="822" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">foreign trade and international finance<title>foreign trade and international finance</title></text>
+<rect x="330" y="805" width="414.68" height="20" fill="#2f855a"><title>foreign trade and international finance: 69.1% passed</title></rect>
+<rect x="744.68" y="805" width="185.32" height="20" fill="#c53030"><title>foreign trade and international finance: 30.9% failed</title></rect>
+<text x="945" y="820" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">69.1% pass / 30.9% fail</text>
+<text x="1115" y="820" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=327</text>
+<text x="40" y="852" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">immigration<title>immigration</title></text>
+<rect x="330" y="835" width="372.67" height="20" fill="#2f855a"><title>immigration: 62.1% passed</title></rect>
+<rect x="702.67" y="835" width="227.33" height="20" fill="#c53030"><title>immigration: 37.9% failed</title></rect>
+<text x="945" y="850" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">62.1% pass / 37.9% fail</text>
+<text x="1115" y="850" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=322</text>
+</svg>

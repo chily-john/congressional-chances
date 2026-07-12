@@ -1,0 +1,92 @@
+{
+  "categorical_features": [
+    "chamber",
+    "policy_area",
+    "vote_question_type",
+    "majority_party"
+  ],
+  "feature_columns": [
+    "chamber",
+    "policy_area",
+    "vote_question_type",
+    "democratic_seats",
+    "republican_seats",
+    "independent_seats",
+    "total_chamber_size",
+    "majority_party",
+    "majority_margin",
+    "democratic_seat_share",
+    "republican_seat_share",
+    "independent_seat_share",
+    "democratic_voteview_mean",
+    "democratic_voteview_median",
+    "republican_voteview_mean",
+    "republican_voteview_median",
+    "polarization_index"
+  ],
+  "generated_by": "ml/pipeline/stages/export_model.py",
+  "is_sample": false,
+  "metrics": {
+    "accuracy": 0.829495065083679,
+    "confusion_matrix": {
+      "false_negative": 420,
+      "false_positive": 772,
+      "true_negative": 892,
+      "true_positive": 4907
+    },
+    "f1": 0.8916954388515356,
+    "precision": 0.8640605740447261,
+    "recall": 0.9211563731931669,
+    "roc_auc": 0.8754873011761563
+  },
+  "model_available": true,
+  "model_type": "sklearn_logistic_regression",
+  "numeric_features": [
+    "democratic_seats",
+    "republican_seats",
+    "independent_seats",
+    "total_chamber_size",
+    "majority_margin",
+    "democratic_seat_share",
+    "republican_seat_share",
+    "independent_seat_share",
+    "democratic_voteview_mean",
+    "democratic_voteview_median",
+    "republican_voteview_mean",
+    "republican_voteview_median",
+    "polarization_index"
+  ],
+  "polarization_index_distribution": {
+    "feature": "polarization_index",
+    "labels": {
+      "high": "High polarization",
+      "low": "Low polarization",
+      "moderate": "Moderate polarization"
+    },
+    "notes": [
+      "Thresholds are computed from the train split polarization_index distribution during model training.",
+      "Use values below moderate_min as low, values below high_min as moderate, and values at or above high_min as high."
+    ],
+    "quantiles": {
+      "0.33": 0.7150000000000001,
+      "0.67": 0.7958528301886791
+    },
+    "source": "training_data_quantiles",
+    "thresholds": {
+      "high_min": 0.7958528301886791,
+      "moderate_min": 0.7150000000000001
+    }
+  },
+  "split_column": "split",
+  "target_column": "roll_call_passed",
+  "test_class_balance": {
+    "0": 1664,
+    "1": 5327
+  },
+  "test_rows": 6991,
+  "train_class_balance": {
+    "0": 9183,
+    "1": 18780
+  },
+  "training_rows": 27963
+}

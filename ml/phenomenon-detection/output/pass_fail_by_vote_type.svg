@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1a202c">Pass/Fail by Vote Type</text>
+<text x="40" y="68" font-family="Arial, sans-serif" font-size="14" fill="#718096">Top 15 vote types by roll-call count from training_data.csv</text>
+<rect x="330" y="84" width="18" height="12" fill="#2f855a"/>
+<text x="356" y="95" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">Passed</text>
+<rect x="430" y="84" width="18" height="12" fill="#c53030"/>
+<text x="456" y="95" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">Failed</text>
+<text x="40" y="103" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#718096">Vote type</text>
+<text x="330" y="103" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#718096">0%</text>
+<text x="616.0" y="103" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#718096">50%</text>
+<text x="902" y="103" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#718096">100%</text>
+<line x1="330" y1="108" x2="930" y2="108" stroke="#e2e8f0"/>
+<text x="40" y="132" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">amendment<title>amendment</title></text>
+<rect x="330" y="115" width="244.68" height="20" fill="#2f855a"><title>amendment: 40.8% passed</title></rect>
+<rect x="574.68" y="115" width="355.32" height="20" fill="#c53030"><title>amendment: 59.2% failed</title></rect>
+<text x="945" y="130" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">40.8% pass / 59.2% fail</text>
+<text x="1115" y="130" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=11275</text>
+<text x="40" y="162" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">suspension of rules<title>suspension of rules</title></text>
+<rect x="330" y="145" width="570.39" height="20" fill="#2f855a"><title>suspension of rules: 95.1% passed</title></rect>
+<rect x="900.39" y="145" width="29.61" height="20" fill="#c53030"><title>suspension of rules: 4.9% failed</title></rect>
+<text x="945" y="160" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">95.1% pass / 4.9% fail</text>
+<text x="1115" y="160" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=4884</text>
+<text x="40" y="192" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">passage<title>passage</title></text>
+<rect x="330" y="175" width="577.05" height="20" fill="#2f855a"><title>passage: 96.2% passed</title></rect>
+<rect x="907.05" y="175" width="22.95" height="20" fill="#c53030"><title>passage: 3.8% failed</title></rect>
+<text x="945" y="190" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">96.2% pass / 3.8% fail</text>
+<text x="1115" y="190" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=3320</text>
+<text x="40" y="222" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">resolution<title>resolution</title></text>
+<rect x="330" y="205" width="573.50" height="20" fill="#2f855a"><title>resolution: 95.6% passed</title></rect>
+<rect x="903.50" y="205" width="26.50" height="20" fill="#c53030"><title>resolution: 4.4% failed</title></rect>
+<text x="945" y="220" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">95.6% pass / 4.4% fail</text>
+<text x="1115" y="220" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=2581</text>
+<text x="40" y="252" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">cloture<title>cloture</title></text>
+<rect x="330" y="235" width="451.50" height="20" fill="#2f855a"><title>cloture: 75.3% passed</title></rect>
+<rect x="781.50" y="235" width="148.50" height="20" fill="#c53030"><title>cloture: 24.7% failed</title></rect>
+<text x="945" y="250" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">75.3% pass / 24.7% fail</text>
+<text x="1115" y="250" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=2299</text>
+<text x="40" y="282" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">procedural motion<title>procedural motion</title></text>
+<rect x="330" y="265" width="196.37" height="20" fill="#2f855a"><title>procedural motion: 32.7% passed</title></rect>
+<rect x="526.37" y="265" width="403.63" height="20" fill="#c53030"><title>procedural motion: 67.3% failed</title></rect>
+<text x="945" y="280" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">32.7% pass / 67.3% fail</text>
+<text x="1115" y="280" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=2203</text>
+<text x="40" y="312" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">motion to table<title>motion to table</title></text>
+<rect x="330" y="295" width="510.37" height="20" fill="#2f855a"><title>motion to table: 85.1% passed</title></rect>
+<rect x="840.37" y="295" width="89.63" height="20" fill="#c53030"><title>motion to table: 14.9% failed</title></rect>
+<text x="945" y="310" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">85.1% pass / 14.9% fail</text>
+<text x="1115" y="310" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=2122</text>
+<text x="40" y="342" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">other<title>other</title></text>
+<rect x="330" y="325" width="591.42" height="20" fill="#2f855a"><title>other: 98.6% passed</title></rect>
+<rect x="921.42" y="325" width="8.58" height="20" fill="#c53030"><title>other: 1.4% failed</title></rect>
+<text x="945" y="340" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">98.6% pass / 1.4% fail</text>
+<text x="1115" y="340" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=2027</text>
+<text x="40" y="372" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">nomination<title>nomination</title></text>
+<rect x="330" y="355" width="598.75" height="20" fill="#2f855a"><title>nomination: 99.8% passed</title></rect>
+<rect x="928.75" y="355" width="1.25" height="20" fill="#c53030"><title>nomination: 0.2% failed</title></rect>
+<text x="945" y="370" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">99.8% pass / 0.2% fail</text>
+<text x="1115" y="370" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=1914</text>
+<text x="40" y="402" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">motion to recommit<title>motion to recommit</title></text>
+<rect x="330" y="385" width="29.38" height="20" fill="#2f855a"><title>motion to recommit: 4.9% passed</title></rect>
+<rect x="359.38" y="385" width="570.62" height="20" fill="#c53030"><title>motion to recommit: 95.1% failed</title></rect>
+<text x="945" y="400" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">4.9% pass / 95.1% fail</text>
+<text x="1115" y="400" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=1205</text>
+<text x="40" y="432" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">conference report<title>conference report</title></text>
+<rect x="330" y="415" width="543.24" height="20" fill="#2f855a"><title>conference report: 90.5% passed</title></rect>
+<rect x="873.24" y="415" width="56.76" height="20" fill="#c53030"><title>conference report: 9.5% failed</title></rect>
+<text x="945" y="430" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">90.5% pass / 9.5% fail</text>
+<text x="1115" y="430" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=740</text>
+<text x="40" y="462" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">motion to proceed<title>motion to proceed</title></text>
+<rect x="330" y="445" width="476.00" height="20" fill="#2f855a"><title>motion to proceed: 79.3% passed</title></rect>
+<rect x="806.00" y="445" width="124.00" height="20" fill="#c53030"><title>motion to proceed: 20.7% failed</title></rect>
+<text x="945" y="460" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">79.3% pass / 20.7% fail</text>
+<text x="1115" y="460" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=300</text>
+<text x="40" y="492" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">quorum or attendance<title>quorum or attendance</title></text>
+<rect x="330" y="475" width="600.00" height="20" fill="#2f855a"><title>quorum or attendance: 100.0% passed</title></rect>
+<rect x="930.00" y="475" width="0.00" height="20" fill="#c53030"><title>quorum or attendance: 0.0% failed</title></rect>
+<text x="945" y="490" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">100.0% pass / 0.0% fail</text>
+<text x="1115" y="490" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=52</text>
+<text x="40" y="522" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">veto override<title>veto override</title></text>
+<rect x="330" y="505" width="475.00" height="20" fill="#2f855a"><title>veto override: 79.2% passed</title></rect>
+<rect x="805.00" y="505" width="125.00" height="20" fill="#c53030"><title>veto override: 20.8% failed</title></rect>
+<text x="945" y="520" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">79.2% pass / 20.8% fail</text>
+<text x="1115" y="520" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=24</text>
+<text x="40" y="552" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">unknown<title>unknown</title></text>
+<rect x="330" y="535" width="300.00" height="20" fill="#2f855a"><title>unknown: 50.0% passed</title></rect>
+<rect x="630.00" y="535" width="300.00" height="20" fill="#c53030"><title>unknown: 50.0% failed</title></rect>
+<text x="945" y="550" font-family="Arial, sans-serif" font-size="13" fill="#1a202c">50.0% pass / 50.0% fail</text>
+<text x="1115" y="550" font-family="Arial, sans-serif" font-size="12" fill="#718096">n=8</text>
+</svg>

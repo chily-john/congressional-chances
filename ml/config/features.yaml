@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "scaffold": {
+    "generated_by": "scaffold",
+    "is_sample": true,
+    "notes": [
+      "Tracer-bullet feature schema for validating static artifacts before real ML exists.",
+      "TODO: confirm exact Voteview export fields and categorical values."
+    ]
+  },
+  "ordered_features": [
+    "chamber",
+    "policy_area",
+    "vote_question_type",
+    "democratic_seats",
+    "republican_seats",
+    "independent_seats",
+    "total_chamber_size",
+    "majority_party",
+    "majority_margin",
+    "democratic_seat_share",
+    "republican_seat_share",
+    "independent_seat_share",
+    "democratic_voteview_mean",
+    "democratic_voteview_median",
+    "republican_voteview_mean",
+    "republican_voteview_median",
+    "polarization_index"
+  ],
+  "feature_groups": {
+    "categorical": ["chamber", "policy_area", "vote_question_type", "majority_party"],
+    "composition": [
+      "democratic_seats",
+      "republican_seats",
+      "independent_seats",
+      "total_chamber_size",
+      "majority_margin",
+      "democratic_seat_share",
+      "republican_seat_share",
+      "independent_seat_share"
+    ],
+    "party_ideology": [
+      "democratic_voteview_mean",
+      "democratic_voteview_median",
+      "republican_voteview_mean",
+      "republican_voteview_median",
+      "polarization_index"
+    ]
+  },
+  "excluded_leakage_fields": {
+    "result_labels": ["result", "passed", "failed", "passage_status"],
+    "vote_totals": ["yea_total", "nay_total", "present_total", "not_voting_total", "vote_margin"],
+    "outcome_revealing_text": ["result_text", "outcome_summary", "final_action"]
+  }
+}

@@ -1,0 +1,47 @@
+name: ML build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  ml-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.0.8
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Node dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Run ML pipeline build
+        run: pnpm build:ml
+      - name: Validate deployment build
+        run: pnpm build
+      - name: Commit refreshed browser artifacts
+        run: |
+          git add ml/browser-artifacts static/model
+          if git diff --cached --quiet; then
+            echo "No browser artifact changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh weekly model artifacts"
+          git push
