@@ -27,17 +27,17 @@
   "generated_by": "ml/pipeline/stages/export_model.py",
   "is_sample": false,
   "metrics": {
-    "accuracy": 0.8290769011271223,
+    "accuracy": 0.8267008985879333,
     "confusion_matrix": {
-      "false_negative": 425,
-      "false_positive": 773,
-      "true_negative": 915,
-      "true_positive": 4896
+      "false_negative": 393,
+      "false_positive": 822,
+      "true_negative": 864,
+      "true_positive": 4932
     },
-    "f1": 0.8909918107370337,
-    "precision": 0.863644381725172,
-    "recall": 0.9201277955271565,
-    "roc_auc": 0.8798238402609352
+    "f1": 0.8903330625507717,
+    "precision": 0.8571428571428571,
+    "recall": 0.9261971830985916,
+    "roc_auc": 0.8799851302357444
   },
   "model_available": true,
   "model_type": "sklearn_logistic_regression",
@@ -69,24 +69,24 @@
     ],
     "quantiles": {
       "0.33": 0.7150000000000001,
-      "0.67": 0.7948566037735849
+      "0.67": 0.7948490566037736
     },
     "source": "training_data_quantiles",
     "thresholds": {
-      "high_min": 0.7948566037735849,
+      "high_min": 0.7948490566037736,
       "moderate_min": 0.7150000000000001
     }
   },
   "split_column": "split",
   "target_column": "roll_call_passed",
   "test_class_balance": {
-    "0": 1688,
-    "1": 5321
+    "0": 1686,
+    "1": 5325
   },
-  "test_rows": 7009,
+  "test_rows": 7011,
   "train_class_balance": {
-    "0": 9190,
-    "1": 18844
+    "0": 9194,
+    "1": 18850
   },
-  "training_rows": 28034
+  "training_rows": 28044
 }
