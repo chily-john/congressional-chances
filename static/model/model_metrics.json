@@ -37,7 +37,7 @@
     "f1": 0.8904097253489419,
     "precision": 0.8569942797711908,
     "recall": 0.9265367316341829,
-    "roc_auc": 0.872679789855666
+    "roc_auc": 0.8726716659484984
   },
   "model_available": true,
   "model_type": "sklearn_logistic_regression",
