@@ -27,17 +27,17 @@
   "generated_by": "ml/pipeline/stages/export_model.py",
   "is_sample": false,
   "metrics": {
-    "accuracy": 0.8266381766381766,
+    "accuracy": 0.8264274526555603,
     "confusion_matrix": {
-      "false_negative": 392,
-      "false_positive": 825,
-      "true_negative": 859,
-      "true_positive": 4944
+      "false_negative": 395,
+      "false_positive": 824,
+      "true_negative": 858,
+      "true_positive": 4946
     },
-    "f1": 0.8904097253489419,
-    "precision": 0.8569942797711908,
-    "recall": 0.9265367316341829,
-    "roc_auc": 0.8726829058748535
+    "f1": 0.8902889028890288,
+    "precision": 0.8571923743500867,
+    "recall": 0.9260438120202209,
+    "roc_auc": 0.8755322220740502
   },
   "model_available": true,
   "model_type": "sklearn_logistic_regression",
@@ -80,13 +80,13 @@
   "split_column": "split",
   "target_column": "roll_call_passed",
   "test_class_balance": {
-    "0": 1684,
-    "1": 5336
+    "0": 1682,
+    "1": 5341
   },
-  "test_rows": 7020,
+  "test_rows": 7023,
   "train_class_balance": {
-    "0": 9206,
-    "1": 18873
+    "0": 9208,
+    "1": 18883
   },
-  "training_rows": 28079
+  "training_rows": 28091
 }
